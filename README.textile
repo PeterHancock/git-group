@@ -1,0 +1,23 @@
+h1. GIT GROUP
+
+The problem this script solves is nicely described at
+"Multiple working folders with single GIT repository":http://finik.net/2010/10/24/multiple-working-folders-with-single-git-repository/
+
+The solution is more or less a copy of that.
+
+h2. Installation
+
+Add the _bin_ directory to your path
+
+h2. Usage
+
+To create a git group in the current directory, _GROUP-DIR_
+
+bc. git group <REPO URL>
+
+To create a new working copy _WC_
+
+bc. cd GROUP-DIR
+git group-add WC
+
+
